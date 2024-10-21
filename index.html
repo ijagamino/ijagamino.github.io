@@ -5,66 +5,414 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./src/output.css" rel="stylesheet" />
   </head>
-  <body class="container mx-auto">
-    <header>
-      <h1 class="text-3xl font-bold">Ivan Joshua</h1>
-    </header>
-    <main>
-      <h2>Languages</h2>
-      <ul>
-        <li>
-          <img class="w-12 h-12" src="images/html-5.svg" alt="HTML logo" />
-        </li>
-        <li>
-          <img
-            class="w-12 h-12"
-            src="images/file-type-css.svg"
-            alt="CSS logo"
-          />
-        </li>
-        <li>
-          <img
-            class="w-12 h-12"
-            src="images/tailwind-css.svg"
-            alt="Tailwind logo"
-          />
-        </li>
-        <li><img class="w-12 h-12" src="images/php.svg" alt="PHP logo" /></li>
-        <li>
-          <img class="w-12 h-12" src="images/laravel.svg" alt="Laravel logo" />
-        </li>
-      </ul>
+  <body class="container mx-auto bg-slate-300 text-slate-800">
+    <main class="rounded-lg bg-slate-100 my-12 p-8 shadow-lg">
+      <header class="text-center">
+        <h1 class="text-4xl font-bold">Portfolio</h1>
+        <h2 class="mt-8 text-3xl font-bold">Personal Details</h2>
+        <div class="mt-8">
+          <p class="text-2xl font-bold">Ivan Joshua A. Gamino</p>
+          <p class="text-xl font-semibold">IT3-South1</p>
+          <p>Full Stack Web Developer</p>
+        </div>
+      </header>
 
-      <h2>Links</h2>
-      <ul>
-        <li>
-          <a href="https://github.com/ijagamino"
-            ><img
-              class="w-12 h-12"
-              src="images/github-logo.png"
-              alt="GitHub logo"
-          /></a>
-        </li>
-        <li>LinkedIn</li>
-        <li>Resume (downloadable)</li>
-      </ul>
+      <hr class="h-px my-8 bg-slate-300 border-0" />
 
-      <h2>Certificates</h2>
-      <ul>
-        <li>Placeholder Image</li>
-        <li>Placeholder Image</li>
-        <li>Placeholder Image</li>
-      </ul>
+      <section class="container mx-auto text-center px-12">
+        <h2 class="text-3xl font-bold">Languages & Frameworks</h2>
+        <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <!-- HTML -->
+          <div class="rounded-lg border p-4 shadow-lg">
+            <h3 class="mb-4 text-xl font-semibold">Structure & Markup</h3>
+            <div class="flex items-center space-x-2">
+              <div class="relative">
+                <img
+                  class="h-16 w-16 rounded-lg border-2 bg-slate-300"
+                  src="images/html-5.svg"
+                  alt="HTML Logo"
+                />
+              </div>
+              <div class="text-left">
+                <span class="block text-2xl font-bold text-gray-800">
+                  HTML
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- CSS + Tailwind -->
+          <div class="rounded-lg border p-4 shadow-lg">
+            <h3 class="mb-4 text-xl font-semibold">Design & Styling</h3>
+            <div class="flex items-center space-x-2">
+              <div class="relative">
+                <img
+                  class="h-16 w-16 rounded-lg border-2 bg-slate-300"
+                  src="images/css.svg"
+                  alt="CSS Logo"
+                />
+                <img
+                  class="absolute left-0 top-0 z-10 h-6 w-6 -translate-y-1/3 rounded-full border border-black bg-slate-300 shadow"
+                  src="images/css-tailwind.svg"
+                  alt="Tailwind Logo"
+                />
+              </div>
+              <div class="text-left">
+                <span class="block text-2xl font-bold text-gray-800">CSS</span>
+                <span class="block font-semibold text-slate-500">Tailwind</span>
+              </div>
+            </div>
+          </div>
+          <!-- JavaScript + Vue -->
+          <div class="rounded-lg border p-4 shadow-lg">
+            <h3 class="mb-4 text-xl font-semibold">Frontend Interactivity</h3>
+            <div class="flex items-center space-x-2">
+              <div class="relative">
+                <img
+                  class="h-16 w-16 rounded-lg border-2 bg-slate-300"
+                  src="images/js.svg"
+                  alt="JavaScript Logo"
+                />
+                <img
+                  class="absolute left-0 top-0 z-10 h-6 w-6 -translate-y-1/3 rounded-full border border-black bg-slate-300 shadow"
+                  src="images/js-vue.svg"
+                  alt="Vue Logo"
+                />
+                <img
+                  class="absolute left-0 top-0 h-6 w-6 -translate-y-1/3 translate-x-1/2 rounded-full border border-black bg-slate-300"
+                  src="images/js-jquery.svg"
+                  alt="jquery Logo"
+                />
+              </div>
+              <div class="text-left">
+                <span class="block text-2xl font-bold text-gray-800">
+                  JavaScript
+                </span>
+                <span class="block font-semibold text-slate-500">
+                  Vue, jQuery
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- PHP + Laravel -->
+          <div class="rounded-lg border p-4 shadow-lg">
+            <h3 class="mb-4 text-xl font-semibold">Backend Development</h3>
+            <div class="flex items-center space-x-2">
+              <div class="relative">
+                <img
+                  class="h-16 w-16 rounded-lg border-2 bg-slate-300"
+                  src="images/php1.svg"
+                  alt="PHP Logo"
+                />
+                <img
+                  class="absolute left-0 top-0 h-6 w-6 -translate-y-1/3 rounded-full border border-black bg-slate-300"
+                  src="images/php-laravel.svg"
+                  alt="Laravel Logo"
+                />
+              </div>
+              <div class="text-left">
+                <span class="block text-2xl font-bold text-gray-800">
+                  PHP
+                </span>
+                <span class="block font-semibold text-slate-500">
+                  Laravel
+                </span>
+              </div>
+            </div>
 
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <a href="https://github.com/ijagamino/ite400-finals-project"
-            >Cake Hub</a
+            <div class="mt-4 flex items-center space-x-2">
+              <div class="relative">
+                <img
+                  class="h-16 w-16 rounded-lg border-2 bg-slate-300"
+                  src="images/js.svg"
+                  alt="JavaScript Logo"
+                />
+                <img
+                  class="absolute left-0 top-0 z-10 h-6 w-6 -translate-y-1/3 rounded-full border border-black bg-slate-300 shadow"
+                  src="images/mongodb.svg"
+                  alt="MongoDB Logo"
+                />
+              </div>
+              <div class="text-left">
+                <span class="block text-2xl font-bold text-gray-800">
+                  JavaScript
+                </span>
+                <span class="block font-semibold text-slate-500">
+                  MongoDB
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="h-px my-8 bg-slate-300 border-0" />
+
+      <section class="container mx-auto text-center bg-slate-100 py-12">
+        <h2 class="mb-8 text-3xl font-bold">Connect with Me</h2>
+        <div class="flex justify-center space-x-6">
+          <a
+            class="flex flex-col items-center text-xl text-blue-600 hover:underline"
+            href="https://github.com/ijagamino"
           >
-        </li>
-      </ul>
+            <img class="h-12 w-12" src="images/github.png" alt="GitHub logo" />
+            GitHub
+          </a>
+          <a
+            class="flex flex-col items-center text-xl text-blue-600 hover:underline"
+            href="https://www.linkedin.com/in/ivan-joshua-gamino-4a5346263/"
+          >
+            <img class="h-12 w-12" src="images/linkedin.svg" alt="LinkedIn" />
+            LinkedIn
+          </a>
+        </div>
+      </section>
+
+      <hr class="h-px my-8 bg-slate-300 border-0" />
+
+      <section class="container mx-auto text-center">
+        <h2 class="mb-8 text-3xl font-bold">Projects</h2>
+        <p class="mb-6 text-lg">
+          Some of my recent works and projects using the technologies listed
+          above.
+        </p>
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <!-- 1st -->
+
+          <div
+            class="rounded-lg border shadow-lg p-4 flex flex-col items-center"
+          >
+            <a href="https://github.com/ijagamino/ite400-finals-project">
+              <h3 class="text-xl font-semibold">Cake Hub</h3>
+            </a>
+            <div class="flex gap-1 mt-2">
+              <img
+                class="h-8 w-8 rounded-full"
+                src="images/html-5.svg"
+                alt="HTML Logo"
+              />
+              <div class="flex relative">
+                <img
+                  class="h-8 w-8 rounded-full"
+                  src="images/css.svg"
+                  alt="CSS Logo"
+                />
+                <img
+                  class="h-4 w-4 bg-slate-300 rounded-full absolute top-0 right-0 -translate-y-1/3"
+                  src="images/css-tailwind.svg"
+                  alt="Tailwind Logo"
+                />
+              </div>
+              <div class="flex relative">
+                <img
+                  class="h-8 w-8 rounded-full"
+                  src="images/php.svg"
+                  alt="PHP Logo"
+                />
+                <img
+                  class="h-4 w-4 bg-slate-300 rounded-full absolute top-0 right-0 -translate-y-1/3"
+                  src="images/php-laravel.svg"
+                  alt="Laravel Logo"
+                />
+              </div>
+            </div>
+            <p class="text-lg text-slate-500">
+              A web application created using PHP + Laravel that allows users to
+              order cakes and process orders.
+            </p>
+          </div>
+
+          <!-- 2nd -->
+
+          <div
+            class="rounded-lg border shadow-lg p-4 flex flex-col items-center"
+          >
+            <a href="https://github.com/ijagamino/csdl-rss">
+              <h3 class="text-xl font-semibold">CSDL RSS</h3>
+            </a>
+            <div class="flex gap-1 mt-2">
+              <img
+                class="h-8 w-8 rounded-full"
+                src="images/html-5.svg"
+                alt="HTML Logo"
+              />
+              <div class="flex relative">
+                <img
+                  class="h-8 w-8 rounded-full"
+                  src="images/css.svg"
+                  alt="CSS Logo"
+                />
+                <img
+                  class="h-4 w-4 bg-slate-300 rounded-full absolute top-0 right-0 -translate-y-1/3"
+                  src="images/css-sass.svg"
+                  alt="SASS Logo"
+                />
+              </div>
+              <div class="flex relative">
+                <img
+                  class="h-8 w-8 rounded-full"
+                  src="images/js.svg"
+                  alt="JavaScript Logo"
+                />
+                <img
+                  class="h-4 w-4 bg-slate-300 rounded-full absolute top-0 right-0 -translate-y-1/3"
+                  src="images/js-vue.svg"
+                  alt="Vue Logo"
+                />
+              </div>
+              <div class="flex relative">
+                <img
+                  class="h-8 w-8 rounded-full"
+                  src="images/php.svg"
+                  alt="PHP Logo"
+                />
+                <img
+                  class="h-4 w-4 bg-slate-300 rounded-full absolute top-0 right-0 -translate-y-1/3"
+                  src="images/php-laravel.svg"
+                  alt="Laravel Logo"
+                />
+              </div>
+            </div>
+            <p class="text-lg text-slate-500">
+              A web application created using Laravel as the backend API and Vue
+              for frontend interactivity that allows users to create reports,
+              make appointments and view upcoming appointments for their
+              reports.
+            </p>
+          </div>
+
+          <!-- 3rd -->
+
+          <div
+            class="rounded-lg border shadow-lg p-4 flex flex-col items-center"
+          >
+            <a href="https://github.com/ijagamino/integration-project">
+              <h3 class="text-xl font-semibold">Integrated Project</h3>
+            </a>
+            <div class="flex gap-1 mt-2">
+              <img
+                class="h-8 w-8 rounded-full"
+                src="images/html-5.svg"
+                alt="HTML Logo"
+              />
+              <div class="flex relative">
+                <img
+                  class="h-8 w-8 rounded-full"
+                  src="images/css.svg"
+                  alt="CSS Logo"
+                />
+                <img
+                  class="h-4 w-4 bg-slate-300 rounded-full absolute top-0 right-0 -translate-y-1/3"
+                  src="images/css-sass.svg"
+                  alt="SASS Logo"
+                />
+              </div>
+              <div class="flex relative">
+                <img
+                  class="h-8 w-8 rounded-full"
+                  src="images/js.svg"
+                  alt="JavaScript Logo"
+                />
+                <img
+                  class="h-4 w-4 bg-slate-300 rounded-full absolute top-0 right-0 -translate-y-1/3"
+                  src="images/js-vue.svg"
+                  alt="Vue Logo"
+                />
+              </div>
+              <div class="flex relative">
+                <img
+                  class="h-8 w-8 rounded-full"
+                  src="images/js.svg"
+                  alt="JavaScript Logo"
+                />
+                <img
+                  class="h-4 w-4 bg-slate-300 rounded-full absolute top-0 right-0 -translate-y-1/3"
+                  src="images/mongodb.svg"
+                  alt="MongoDB Logo"
+                />
+              </div>
+            </div>
+            <p class="text-lg text-slate-500">
+              Integrated project for ITE 307, ITE 314, and ITE 353. A point of
+              sale system wherein users can create products, track the inventory
+              and product stocks, and track sales.
+            </p>
+          </div>
+
+          <!-- 4th -->
+
+          <div
+            class="rounded-lg border shadow-lg p-4 flex flex-col items-center"
+          >
+            <a href="https://github.com/ijagamino/portfolio">
+              <h3 class="text-xl font-semibold">Personal Portfolio</h3>
+            </a>
+            <div class="flex gap-1 mt-2">
+              <img
+                class="h-8 w-8 rounded-full"
+                src="images/html-5.svg"
+                alt="HTML Logo"
+              />
+              <div class="flex relative">
+                <img
+                  class="h-8 w-8 rounded-full"
+                  src="images/css.svg"
+                  alt="CSS Logo"
+                />
+                <img
+                  class="h-4 w-4 bg-slate-300 rounded-full absolute top-0 right-0 -translate-y-1/3"
+                  src="images/css-tailwind.svg"
+                  alt="tailwind Logo"
+                />
+              </div>
+            </div>
+            <p class="text-lg text-slate-500">
+              Personal portfolio built to show my skills and projects that I
+              have worked on during this year and the past years in school.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="h-px my-8 bg-slate-300 border-0" />
+
+      <section class="container mx-auto text-center bg-slate-100 py-12">
+        <h2 class="mb-8 text-3xl font-bold">Gallery</h2>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-rows-2 gap-2"
+        >
+          <img
+            class="object-cover w-full h-full col-span-1 row-span-2"
+            src="images/torne.jpg"
+            alt=""
+          />
+          <img
+            class="object-cover w-full h-full lg:col-span-2 row-span-2"
+            src="images/presentation.jpg"
+            alt=""
+          />
+          <img
+            class="object-cover w-full h-full col-span-1 row-span-2"
+            src="images/xi.jpg"
+            alt=""
+          />
+        </div>
+        <div class="flex justify-center space-x-6">
+          <a
+            class="flex flex-col items-center text-xl text-blue-600 hover:underline"
+            href="https://github.com/ijagamino"
+          >
+            <img class="h-12 w-12" src="images/github.png" alt="GitHub logo" />
+            GitHub
+          </a>
+          <a
+            class="flex flex-col items-center text-xl text-blue-600 hover:underline"
+            href="https://www.linkedin.com/in/ivan-joshua-gamino-4a5346263/"
+          >
+            <img class="h-12 w-12" src="images/linkedin.svg" alt="LinkedIn" />
+            LinkedIn
+          </a>
+        </div>
+      </section>
     </main>
-    <footer></footer>
   </body>
 </html>
