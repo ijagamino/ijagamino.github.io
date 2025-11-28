@@ -1,0 +1,89 @@
+seo:
+  title: "Ivan Gamino - Fullstack Developer"
+  description: "Welcome to my portfolio! I'm Ivan Gamino, a fullstack developer based in Nueva Ecija.I specialize in creating web applications that are beautiful and functional."
+title: "Hey, I'm Ivan Gamino Fullstack Developer"
+description: "I develop web applications. Based in Nueva Ecija, bringing ideas to life through code."
+hero:
+  links:
+    - icon: "simple-icons:github"
+      to: https://github.com/ijagamino/
+      target: "_blank"
+      label: 'GitHub'
+      aria-label: "My profile on GitHub"
+    - icon: "simple-icons:linkedin"
+      to: https://www.linkedin.com/in/ivan-joshua-gamino-4a5346263/
+      target: "_blank"
+      label: 'LinkedIn'
+      aria-label: "My profile on LinkedIn"
+about:
+  title: "About Me"
+  description: |
+    An aspiring fullstack developer from PHINMA Araullo University. I am currently studying Bachelor of Science in Information Technology.
+    I will use my skills and knowledge to create efficient, effective, and maintainable web applications.
+educationalBackground:
+  title: "Educational Background"
+  items:
+    - date: "2022 - Present"
+      degree: "Bachelor of Science in Information Technology"
+      institution: "PHINMA Araullo University"
+      icon: "lucide-hourglass"
+    - date: "2020 - 2022"
+      degree: "Bachelor of Science in Accountancy"
+      institution: "PHINMA Araullo University"
+      icon: "lucide-check"
+    - date: "2018 - 2020"
+      degree: "Senior High School - ABM"
+      institution: "Nueva Ecija High School Senior High School"
+      icon: "lucide-check"
+    - date: "2014 - 2018"
+      degree: "High School"
+      institution: "Nueva Ecija High School"
+      icon: "lucide-check"
+skills:
+  title: "Technologies & Tools"
+  description: "Here are some of the technologies and tools I work with:"
+  items:
+    - name: "HTML5"
+      icon: "simple-icons:html5"
+    - name: "CSS3"
+      icon: "simple-icons:css3"
+      extras:
+        - name: "Tailwind CSS"
+          icon: "simple-icons:tailwindcss"
+    - name: "JavaScript"
+      icon: "simple-icons:javascript"
+      extras:
+        - name: "TypeScript"
+          icon: "simple-icons:typescript"
+    - name: "Vue.js"
+      icon: "simple-icons:vuedotjs"
+      extras:
+        - name: "Nuxt.js"
+          icon: "simple-icons:nuxt"
+        - name: "Quasar"
+          icon: "simple-icons:quasar"
+    - name: "Node.js"
+      icon: "simple-icons:nodedotjs"
+      extras:
+        - name: "Express"
+          icon: "simple-icons:express"
+    - name: "PostgreSQL"
+      icon: "simple-icons:postgresql"
+      extras:
+        - name: "Supabase"
+          icon: "simple-icons:supabase"
+    - name: "MongoDB"
+      icon: "simple-icons:mongodb"
+    - name: "Java"
+      icon: "devicon-plain:java"
+      extras:
+        - name: "Spring"
+          icon: "simple-icons:spring"
+    - name: "PHP"
+      icon: "simple-icons:php"
+      extras:
+        - name: "Laravel"
+          icon: "simple-icons:laravel"
+    - name: "Git"
+      icon: "simple-icons:git"
+

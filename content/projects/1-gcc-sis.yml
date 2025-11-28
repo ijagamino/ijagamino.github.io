@@ -1,0 +1,7 @@
+title: Gapan City College Student Information System
+description: A web application with a dashboard to analyze student information. Handles student application, admission, enrollment, grading, class scheduling, and user management. Implemented JWT authentication and role-based access control for security.
+image: "/preview/gcc-sis-dashboard.png"
+url: "https://github.com/nachtalia/SIS"
+technologies: ["Vue.js (Quasar)", "Node.js (Express)", "MongoDB"]
+tags: ["UX Design", "UI Design"]
+date: "2025"

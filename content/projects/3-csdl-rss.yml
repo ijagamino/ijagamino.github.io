@@ -1,0 +1,7 @@
+title: "CSDL RSS"
+description: "A web application created using Laravel as the backend API and Vue for frontend interactivity that allows users to create reports, make appointments and view upcoming appointments for their reports."
+image: "/preview/csdl-rss-index.png"
+url: "https://github.com/ijagamino/csdl-rss"
+technologies: ["Vue.js", "PHP (Laravel)", "MySQL"]
+tags: ["Web Application", "Mobile Responsive"]
+date: "2024"

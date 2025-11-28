@@ -1,0 +1,6 @@
+title: Cake Hub
+description: A web application created using PHP + Laravel that allows users to order cakes and process orders. Uses role-based access control for admin, customer, and staff roles for security.
+url: "https://github.com/ijagamino/ite400-finals-project"
+technologies: ["Blade", "PHP (Laravel)", "MySQL"]
+tags: ["Web Application"]
+date: "2023"

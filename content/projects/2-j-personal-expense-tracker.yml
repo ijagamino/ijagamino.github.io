@@ -1,0 +1,7 @@
+title: Personal Expense Tracker
+description: A simple web application built using Vue.js (Quasar) and PostgresSQL (Supabase) to help users track their personal expenses. Deployed in vercel to automate the deployment process.
+image: "/preview/jpet-auth.png"
+url: "https://github.com/ijagamino/j-personal-expense-tracker"
+technologies: ["Vue.js (Quasar)", "TypeScript", "PostgreSQL (Supabase)"]
+tags: ["UX Design", "UI Design"]
+date: "2025"

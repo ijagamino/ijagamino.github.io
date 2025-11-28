@@ -1,0 +1,7 @@
+title: Point of Sale System
+description: Integrated project for ITE 307, ITE 314, and ITE 353. A point of sale system wherein users can create products, track the inventory and product stocks, and track sales
+image: "/preview/integrated-project-index.png"
+url: "https://github.com/ijagamino/integration-project"
+technologies: ["Vue.js (Quasar)", "Node.js (Express)", "MongoDB"]
+tags: ["Web Application"]
+date: "2024"
