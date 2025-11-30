@@ -67,18 +67,17 @@ skills:
       extras:
         - name: "Express"
           icon: "simple-icons:express"
-    - name: "PostgreSQL"
-      icon: "simple-icons:postgresql"
+    - name: "SQL"
+      icon: "devicon-plain:azuresqldatabase"
       extras:
-        - name: "Supabase"
-          icon: "simple-icons:supabase"
+        - name: "MySQL"
+          icon: "devicon-plain:mysql"
+        - name: "PostgreSQL"
+          icon: "devicon-plain:postgresql"
     - name: "MongoDB"
       icon: "simple-icons:mongodb"
     - name: "Java"
       icon: "devicon-plain:java"
-      extras:
-        - name: "Spring"
-          icon: "simple-icons:spring"
     - name: "PHP"
       icon: "simple-icons:php"
       extras:
