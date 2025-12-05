@@ -4,7 +4,7 @@
     :ui="{
       container: 'p-0!',
       title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
-      body: 'mt-2 grid grid-cols-5 gap-4'
+      body: 'mt-2 grid grid-cols-2 lg:grid-cols-5 gap-4'
     }"
   >
     <template #body>
@@ -35,7 +35,11 @@
           :name="item.icon"
         />
         <template #footer>
-          {{ item.extras !== undefined && item.extras.length > 0 ? `${item.name} (${item.extras.map(item => item.name).join(', ')})` : item.name }}
+          {{
+            item.extras !== undefined && item.extras.length > 0
+              ? `${item.name} (${item.extras.map(extra => extra.name).join(', ')})`
+              : item.name
+          }}
         </template>
       </UCard>
     </template>
